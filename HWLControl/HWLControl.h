@@ -24,5 +24,8 @@
                     textAlignment:(NSTextAlignment)textAlignment
                          fontSize:(CGFloat)fontSize
                         textColor:(UIColor *)textColor;
+
++ (UIImageView *)createImageViewWithFrame:(CGRect)frame image:(UIImage *)image userInteractionEnabled:(BOOL)enabled;
+
     
 @end

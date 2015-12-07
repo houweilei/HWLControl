@@ -34,16 +34,25 @@
                          fontSize:(CGFloat)fontSize
                         textColor:(UIColor *)textColor
                   backgroundColor:(UIColor *)backgroundColor {
+    
     UILabel * label = [[UILabel alloc] initWithFrame:frame];
     label.text = text;
     label.textAlignment = textAlignment;
     label.font = [UIFont systemFontOfSize:fontSize];
     label.textColor = textColor;
     label.backgroundColor = backgroundColor;
+    
     return label;
 }
 
-
++ (UIImageView *)createImageViewWithFrame:(CGRect)frame image:(UIImage *)image userInteractionEnabled:(BOOL)enabled {
+    
+    UIImageView * imageView = [[UIImageView alloc] initWithFrame:frame];
+    imageView.image = image;
+    imageView.userInteractionEnabled = enabled;
+    
+    return imageView;
+}
 
 
 
