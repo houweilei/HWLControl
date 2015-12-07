@@ -19,5 +19,10 @@
                              target:(id)target
                            selector:(SEL)selector;
     
-
++ (UILabel *)createLabelWithFrame:(CGRect)frame
+                             text:(NSString *)text
+                    textAlignment:(NSTextAlignment)textAlignment
+                         fontSize:(CGFloat)fontSize
+                        textColor:(UIColor *)textColor;
+    
 @end

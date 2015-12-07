@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "HWLControl.h"
 @interface ViewController ()
 
 @end
@@ -16,6 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    UILabel * label = [HWLControl createLabelWithFrame:CGRectMake(0, 0, 100, 200) text:@"123" textAlignment:NSTextAlignmentCenter fontSize:17.0 textColor:[UIColor redColor]];
+    [self.view addSubview:label];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
