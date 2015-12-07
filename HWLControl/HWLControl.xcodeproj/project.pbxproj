@@ -16,6 +16,7 @@
 		4408EB0C1C1304E100DA9A4E /* HWLControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4408EB0B1C1304E100DA9A4E /* HWLControlTests.m */; };
 		4408EB171C1304E100DA9A4E /* HWLControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4408EB161C1304E100DA9A4E /* HWLControlUITests.m */; };
 		4408EB261C13068F00DA9A4E /* HWLControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4408EB251C13068F00DA9A4E /* HWLControl.m */; };
+		44101A501C15BE3A00FAAABE /* HWLAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44101A4F1C15BE3A00FAAABE /* HWLAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		4408EB181C1304E100DA9A4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4408EB241C13068F00DA9A4E /* HWLControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWLControl.h; sourceTree = "<group>"; };
 		4408EB251C13068F00DA9A4E /* HWLControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWLControl.m; sourceTree = "<group>"; };
+		44101A4E1C15BE3A00FAAABE /* HWLAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWLAlertView.h; sourceTree = "<group>"; };
+		44101A4F1C15BE3A00FAAABE /* HWLAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWLAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 		4408EAE51C1304E000DA9A4E = {
 			isa = PBXGroup;
 			children = (
+				44101A4E1C15BE3A00FAAABE /* HWLAlertView.h */,
+				44101A4F1C15BE3A00FAAABE /* HWLAlertView.m */,
 				4408EB241C13068F00DA9A4E /* HWLControl.h */,
 				4408EB251C13068F00DA9A4E /* HWLControl.m */,
 				4408EAF01C1304E000DA9A4E /* HWLControl */,
@@ -279,6 +284,7 @@
 				4408EAF61C1304E000DA9A4E /* AppDelegate.m in Sources */,
 				4408EAF31C1304E000DA9A4E /* main.m in Sources */,
 				4408EB261C13068F00DA9A4E /* HWLControl.m in Sources */,
+				44101A501C15BE3A00FAAABE /* HWLAlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
